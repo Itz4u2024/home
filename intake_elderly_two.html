@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name= "viewport" content="width=device-width, initial-scale 1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Itz4u | InTake Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Water+Brush&display=swap" rel="stylesheet">
+
+</head>
+<body class="intake-page">
+    <header class="home">Itz<span class="red">4</span></header>
+    
+<div class="intake-contact">
+
+    <h2>Intake Form</h2>
+
+        
+    <figure>
+        <h3>Your Info</h3>
+            <br>
+            <!--https://formsubmit.co/el/tunuko-->
+        <!--<action="https://formsubmit.co/" method="POST">-->
+            <form action="https://formsubmit.co/el/tunuko" method="POST">
+            <label>Name &nbsp;<input type="text" name="name" placeholder=Required required></label>&nbsp;
+            <label>Spouse &nbsp;<input type="text" name="spouse" placeholder=Optional optional></label>
+            <br>
+            <br>
+        <label>Street Address &nbsp;<input name="text" address="address" placeholder=Required required></label>
+        <label>City &nbsp;<input type="text" name="city" placeholder=Required required></label>
+        <label>State &nbsp;<input type="text" name="state" placeholder=Required required></label>
+        <label>Zip Code &nbsp;<input type="text" name="zip" placeholder=Required required></label>
+        <br>
+        <br>
+        <label>Email &nbsp;<input type="email" name="email" placeholder=Required required></label>
+        <label>Cell &nbsp;<input type="tel" name="phone" placeholder=Optional optional></label>
+        <label>Home &nbsp;<input type="tel" name="phone" placeholder=Optional optional></label>
+        <label>Work &nbsp;<input type="tel" name="phone" placeholder=Otpional optional></label>
+        <br>
+        <br>
+        <label>Alternate Contact &nbsp;<input type="text" name="alt contact" placeholder=Optional></label>
+        <label>Alternate Contact Email &nbsp;<input type="email" name="alt contact email" placeholder=Optional></label>
+        <br>
+        <label>Alternate Contact Phone &nbsp;<input type="tel" name="alt contact phone" placeholder=Optional></label>           
+        <br>
+        <br>
+                    
+
+        <h3>Your Loved Ones Info</h3>
+        <br>
+
+        <form>
+            <fieldset>
+                <legend>Your loved ones information</legend>
+                <br>
+                <div class="intake-contact">
+                <label>Name &nbsp; <input type="text" name="target name" placeholder=Required required></label>
+                &nbsp;<input type="radio" id="targetsex" name="gender" value="male"/><label for="gender">&nbsp;Male</label>
+                &nbsp;<input type="radio" id="targetsex" name="gender" value="female"/><label for="gender">&nbsp;Female</label>&nbsp;&nbsp;
+                &nbsp;&nbsp;<label>Phone # &nbsp; <input type="text" name="target phone" placeholder=Required required></label>
+                <label>Spouse Name &nbsp; <input type="text" name="target spouse" placeholder=Optional optional></label>
+                &nbsp;<input type="radio" id="spouse gender" name="spouse gender" value="spouse male"/><label for="spouse gender">&nbsp;Male</label>
+                &nbsp;<input type="radio" id="spouse gender" name="spouse gender" value="spouse female"/><label for="spouse gender">&nbsp;Female</label>&nbsp;&nbsp;
+                &nbsp;<input type="radio" id="target spouse living" name="spouse lvg" value="living"/><label for="target spouse living">Living</label>
+                &nbsp;<input type="radio" id="target spouse living" name="spouse lvg" value="decesesed"/><label for="target spouse living">Decesesed</label>
+            
+                &nbsp;<input type="radio" id="targetmarried" name="married" value="married"/><label for="married">Married</label>
+                &nbsp;<input type="radio" id="targetmarried" name="married" value="devorced"/><label for="married">Devorced</label>
+                &nbsp;<input type="radio" id="targetmarried" name="married" value="widowed"/><label for="married">Widowed</label>
+                &nbsp;<input type="radio" id="targetmarried" name="married" value="single"/><label for="married">Single</label>
+                <p>The address below is only needed for an emergency only, and will never be comprmised.</p>
+                <label>Street Address &nbsp; <input type="text" name="target street" placeholder=optional optional></label>
+                <label>City &nbsp; <input type="text" name="target city" placeholder=optional optional></label>
+                <label>State &nbsp; <input type="text" name="target state" placeholder=optional optional></label>
+                <label>Zip Code &nbsp; <input type="text" name="target zip" placeholder=optional optional></label>
+                
+                
+                
+                <!--<form>
+                    <fieldset class="intakeForm">
+                      <legend>Choose your interests</legend>
+
+                    </h3>
+            
+                    <table>
+                        <tr>
+                            
+                            
+                            <td><label>
+                                <input type="checkbox" id="travel" name="interest" value="travel" />
+                                Travel
+                              </label></td>
+                            <td><label>
+                                <input type="checkbox" id="puzzles" name="interest" value="puzzles" />
+                                Puzzles
+                            </label>&nbsp;
+                            <label> </td>
+                            <td><label>
+                                <input type="checkbox" id="triva" name="interest" value="triva" />
+                                Triva
+                            </label> </td>
+                            <td><label>
+                                <input type="checkbox" id="movies" name="interest" value="movies" />
+                                Movies
+                            </label> </td>
+                            <td> <label>
+                                <input type="checkbox" id="music" name="interest" value="music" />
+                                Music
+                              </label></td>
+                            <td><label>
+                                <input type="checkbox" id="fashon" name="interest" value="fashon" />
+                                Fashon
+                            </label> </td>
+                        </tr>
+                        <tr>
+                            <td><label>
+                                <input type="checkbox" id="politics" name="interest" value="politics" />
+                                Politics
+                            </label></td>
+                            <td><label>
+                                <input type="checkbox" id="fitness" name="interest" value="fitness" />
+                                Fitness
+                            </label></td>
+                            <td><label>
+                                <input type="checkbox" id="art" name="interest" value="art" />
+                                Art
+                              </label></td>
+                              <td><label>
+                                <input type="checkbox" id="garding" name="interest" value="garding" />
+                                Garding
+                            </label> </td>
+                              <td><label>
+                                <input type="checkbox" id="dining" name="interest" value="dining" />
+                                Dining
+                            </label></td>
+                              <td><label>
+                                <input type="checkbox" id="cooking" name="interest" value="cooking" />
+                                Cooking
+                            </label> </td>
+                        </tr>
+                        <tr>
+                            <td><label>
+                                <input type="checkbox" id="sports" name="interest" value="sports" />
+                                Sports
+                              </label> </td>
+                            <td><label>
+                                <input type="checkbox" id="bird watching" name="interest" value="bird watching" />
+                                Bird Watching
+                            </label> </td>
+                            <td><label>
+                                <input type="checkbox" id="cards" name="interest" value="cards" />
+                                Cards
+                            </label></td>
+                            <td><label>
+                                <input type="checkbox" id="pets" name="interest" value="pets" />
+                                Pets
+                            </label></td>
+                            <td><label>
+                                <input type="checkbox" id="olympics" name="olympics" value="olympics" />
+                                Olympics
+                              </label></td>
+                            <td><label>
+                                <input type="checkbox" id="boating" name="interest" value="boating" />
+                                Boating
+                              </label></td>
+                            
+                        </tr>
+                            <tfoot>
+                                <tr>
+                                <td scope="row" colspan="3"><label>
+                                    <input type="checkbox" id="other" name="interest" value="other" />
+                                    Other
+                                  </label>
+                                  <input
+                                    type="text"
+                                    class="otherTable"
+                                    id="otherinterest"
+                                    name="other"
+                                    aria-label="Other interest" /> </td>
+                                <td colspan="3"><label>
+                                    <input type="checkbox" id="occupation" name="occupation" value="occupation" />
+                                    Occupation
+                                  </label>
+                                  <input
+                                    type="text"
+                                    id="occupation"
+                                    name="occupation"
+                                    aria-label="Occupation" /></td>
+                                </tr>
+                                <tr>
+                                <td colspan="6"><label>
+                                    <input type="checkbox" id="topics to stay away from" name="topics to stay away from" value="topics to stay away from" />
+                                        Topics to stay away from
+                                    </label>
+                                    <input
+                                    type="text"
+                                    class="stayAway"
+                                    id="topicstostayawayfrom"
+                                    name="topics to stay away from"
+                                    aria-label="topics to stay away from" /></td>
+                                </tr>
+                            </tfoot>
+                    </table>
+
+        </form>--> 
+
+        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+        <input type="hidden" name="_subject" value="New submission from ITZ4u!">
+        <button type ="submit">Send</button>            
+    </figure>
+</form>  
+</div>               
+            
+                    
+           
+
+            
+              
+
+            
+    
+    
+</body>
+
+<footer>
+    <a class="copyRight"href="copyRight.html">Copyright &copy; Itz<span class="red">4</span>u</a><a class="copyRight" href="index.html">HOME</a>
+    <br>
+    <a class="copyRight" href="term_of_service.html">Terms of Service</a>
+    <a class="copyRight" href="privacy-policy.html">Privacy Policy</a>
+</footer>
+
+
+
+
+
+</html>
